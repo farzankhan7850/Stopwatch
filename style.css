@@ -1,0 +1,23 @@
+body {
+    margin-top: 28vh;
+    font-family: 'Changa One', cursive;
+  }
+
+  #bkg {
+    background-color: #182954;
+  }
+
+  .timer {
+    font-size: 50px;
+  }
+
+  #heading {
+   
+    font-size : 49px;
+  }
+  #stop{
+    background-color: #fffacd;
+  }
+  #reset{
+    background-color: #C2B280;
+  }
