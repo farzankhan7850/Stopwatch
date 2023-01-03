@@ -1,23 +1,42 @@
-body {
-    margin-top: 28vh;
-    font-family: 'Changa One', cursive;
-  }
+    body {
+        margin-top: 28vh;
+        font-family: 'Changa One', cursive;
+    }
 
-  #bkg {
-    background-color: #182954;
-  }
+    #bkg {
+        background-color: #182954;
+    }
 
-  .timer {
-    font-size: 50px;
-  }
-
-  #heading {
-   
-    font-size : 49px;
-  }
-  #stop{
-    background-color: #fffacd;
-  }
-  #reset{
-    background-color: #C2B280;
-  }
+    .timer {
+        font-size: 50px;
+    }
+    #colon{
+        font-size: 50px;
+    }
+    #heading {
+    
+        font-size : 49px;
+    }
+    #stop{
+        background-color: #fffacd;
+    }
+    #reset{
+        background-color: #C2B280;
+    }
+    @media screen and (min-width: 720px){
+        #min{
+            font-size: 80px;
+        }
+        #sec{
+            font-size: 80px;
+        }
+        #count{
+            font-size: 80px;
+        }
+        #heading{
+            font-size: 70px;
+        }
+        #colon{
+            padding-top: 30px;
+        }
+    }
